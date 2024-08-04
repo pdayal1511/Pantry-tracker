@@ -1,6 +1,6 @@
 'use client'
 import React, {useState, useEffect} from 'react';
-import { collection, addDoc, getDoc, querySnapshot, query, onSnapshot, deleteDoc, doc, } from "firebase/firestore"; 
+import { collection, addDoc, getDoc, QuerySnapshot, query, onSnapshot, deleteDoc, doc, } from "firebase/firestore"; 
 import {db} from './firebase'
 
 export default function Home() {
